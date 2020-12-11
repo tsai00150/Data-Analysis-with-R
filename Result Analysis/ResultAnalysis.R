@@ -25,8 +25,7 @@ for (i in c(1:length(input))){
   else if (target == 'good'){
     rowNum <- nrow(inputCsv)
     inputCsv$pred.score <- (1-inputCsv$pred.score)
-  }else{print('Error')
-    stop(paste("Unknown flag", args[i]), call.=FALSE)}
+  }else{print('Error')}
   
   #-----ACTUAL MODEL-----
   sum_likeli = 0 #set the sum number of the likelihood

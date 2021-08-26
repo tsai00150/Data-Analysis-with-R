@@ -2,7 +2,7 @@
 This project does several calculations on the result of the predictions. 
 
 ## "data" folder
- There are three files that each represent one method for evaluating and producing the prediction scores. Columns include ```persons``` (You can see it as the ID of the row), ```reference``` (the person is in fact bad/good) and ```pred.score``` (the predicted probability of the person being 'bad'). 
+ There should be three files that each represent one method for evaluating and producing the prediction scores. The files are just an example and does not produce ```result.csv```. Columns include ```persons``` (You can see it as the ID of the row to identify the person, ex: person1, person2), ```reference``` (the person is in fact bad/good, input "bad"/"good" only) and ```pred.score``` (the predicted probability of the person being 'bad', ex: 0.1, 0.7). 
 ## ResultAnalysis.R
 ### Parameters
 There are four parameters:\
